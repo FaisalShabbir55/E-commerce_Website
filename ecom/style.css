@@ -1,0 +1,443 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+
+}
+
+/* --------------------------------------header--------------------------------------------- */
+
+.logo img{
+  height: 50px;
+}
+
+.search {
+  width: 100vw;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFF;
+}
+
+.searchbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 175px;
+
+}
+
+.searchbox button {
+  cursor: pointer;
+  width: 10vw;
+  height: 5vh;
+  border-radius: 0px 25px 25px 0px;
+  background-color: yellowgreen;
+  border: none;
+}
+
+.searchbox button:hover {
+  background-color: #008F41;
+  transition: 0.3s;
+}
+
+.searchbox input {
+  border: 0.2px solid yellowgreen;
+  padding: 0px 20px;
+  width: 30vw;
+  height: 5vh;  
+  outline: none;
+  border-radius: 25px 0px 0px 25px;
+}
+
+.profileInfo i {
+  margin: 5px;
+  cursor: pointer;
+  padding: 10px;
+  border: 2px solid #f1f1f1;
+  color: #807373;
+  border-radius: 25px;
+
+  /* text-shadow: 0 0 15px #ffa502; */
+}
+
+.profileInfo i:hover {
+  background-color: yellowgreen;
+  box-shadow: 0 0 10px #ffa502;
+  color: #f1f1f1;
+  transition: 0.3s;
+}
+
+
+/* -----------------------------menu----------------------------------------- */
+
+
+
+.menu {
+  /* background-color: #00A149; */
+  background-color: #008F41;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul li {
+
+  display: inline-block;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  margin: 11px 40px;
+  padding: 0px 10px;
+  color: white;
+
+}
+
+.menu a{
+  position: relative;
+}
+
+.menu a::after {
+  position: absolute;
+  background-color: yellowgreen;
+  width: 0%;
+  height: 3px;
+  content: "";
+  left: 0;
+  line-height: -5px;
+  bottom: -7px;
+  transition: 0.5s;
+}
+
+.menu a:hover::after {
+
+  width: 100%;
+}
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #008F41;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #008F41;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------***---------------------header-------------------***-------------------------- */
+
+
+
+/* --------------------------------------contant--------------------------------------------- */
+
+
+
+.backimg{
+
+  height: 100vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.backimg h1{
+  font-size: 100px;
+  /* padding: 250px 500px 500% 530px; */
+  color:#008F41;
+  align-items: center;
+}
+
+
+.backimg p{
+  color: #f1f1f1;
+  padding: 3px;
+  font-size: 20px;
+}
+
+.massage{
+  float: right;
+  position: relative;
+  top: 25%;
+  right: 2%;
+}
+
+
+.productsmw{
+  height:400vh;
+}
+.productsch{
+  height:200vh;
+}
+.contentmw {
+  background-color: #ffff;
+  height: 200vh;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.4%;
+  grid-template-rows: 25% 25% 25% 25%;
+  text-align: center;
+  margin: 0% 10% 5% 10%;
+}
+.content {
+  background-color: #ffff;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.4%;
+  grid-template-rows: 50% 50%;
+  text-align: center;
+  margin: 0% 10% 5% 10%;
+}
+
+.products h1{
+  padding: 30px 50px;
+}
+
+.box1{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  background-color: #FFFF;
+  /* border: 1px solid black; */
+  padding-top: 20px;
+}
+
+.box2{
+  grid-row: 1/2;
+  grid-column: 2/3;
+  background-color: #FFFF;
+/* border: 1px solid black; */
+  padding-top: 20px;
+}
+
+.box3{
+  grid-row: 1/2;
+  grid-column: 3/4;
+  background-color: #FFFF;
+/* border: 1px solid black; */
+  padding-top: 20px;
+}
+
+
+.box4{
+  grid-row: 2/3;
+  grid-column: 1/2;
+  background-color: #FFFF;
+/* border: 1px solid black; */
+  padding-top: 20px;
+}
+
+.box5{
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background-color: #FFFF;
+/* border: 1px solid black; */
+  padding-top: 20px;
+}
+
+
+.box6{
+  grid-row: 2/3;
+  grid-column: 3/4;
+  background-color: #FFFF;
+/* border: 1px solid black; */
+  padding-top: 20px;
+}
+
+.picture img{
+  height: 27vh;
+}
+
+.givestar{
+  margin: 10px 0px;
+} */
+
+
+
+
+
+
+
+
+/* -----------------***---------------------contant--------------------***------------------------- */
+
+
+.footer{
+  height: 90vh;
+  display: grid;
+  grid-template-rows: 30% 45% 7% 18%;
+  color: #ffff;
+}
+
+.footer1{
+  grid-row: 1/2;
+  background-color: #008F41;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.footer1 h2{
+  padding: 5px 0;
+}
+
+.footer2{
+  grid-row: 2/3;
+  background-color: #181818;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.footer2 h1{
+  padding: 10px 0px;
+}
+
+.footer2 ul li{
+  padding: 4px 0px;
+  list-style: none;
+}
+
+
+
+.footer3{
+  grid-row: 3/4;
+  background-color: #181818;
+}
+
+.footer3{
+  background-color: #181818;
+  display: grid;
+  grid-template-columns: 43% 14% 43%;
+}
+
+
+.FOOOTERlogo h2{
+  padding: 0px 20px;
+}
+
+
+
+
+.left{
+  margin-left: 150px;
+  position: relative;
+  margin-top: 17px;
+  background-color: #ffff;
+  height: 1px;
+}
+.right{
+  margin-right: 160px;
+  position: relative;
+  top: -60;
+  margin-left: -30px;
+  margin-top: 17px;
+  background-color: #ffff;
+  height: 1px;
+}
+.footer4{
+  grid-row: 4/5;
+  background-color: #181818;
+  display: grid;
+  grid-template-columns: 25% 55% 20%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+}
+  
+
+.socalicons ul li{
+  display: inline-block;
+  padding: 5px;
+}
+
+.copyright{
+  position: relative;
+  left: 30%;
+}
+
+.cardicons ul li{
+  display: inline-block;
+  padding: 5px;
+}
+
+
+
+.footer a i{
+  color: #ffff;
+  font-size: 20px;
+  border: 2px solid #f1f1f1;
+  border-radius: 25px;
+  padding: 10px;
+}
+.footer a i:hover {
+  background-color: yellowgreen;
+  box-shadow: 0 0 10px #ffa502;
+  color: #f1f1f1;
+  transition: 0.3s;
+}
+
+
+
+
+/* https: //preview.themeforest.net/item/leo-poco-elementor-fastfood-restaurant-prestashop-theme/full_screen_preview/44981675?_ga=2.175675490.1377726142.1682028344-385950791.1671437813&_gac=1.262932792.1682028346.EAIaIQobChMI6tz7qrq5_gIVjON3Ch2vjgJaEAAYAiAAEgJ56_D_BwE */
+
+
+
+
+
+
+
+
+
+
+
